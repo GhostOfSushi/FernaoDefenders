@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    text-align: center;
+    margin-top: 32px;
+    height: calc(120px + 32px);
+}
+
+header img{
+    width: 120px;
+    padding: 4px;
+}
+
+body * {
+    font-family: 'inter', sans-serif;
+    line-height: 160%;
+}
+
+body{
+    height: 620px;
+    background-image: url(images/Background01.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 600px auto;
+    background-color: #272626;
+}
+
+main{
+    margin-top: 32px;
+    max-width: 580px;
+    width: 22%;
+    margin: 32px auto;
+    gap: 24px;
+}
+
+h2{
+    padding-top: 4px;
+    border-radius: 10px;   
+}
+
+section{
+ 
+    background-color: #2a2634;
+    padding: 32px;
+    padding-top: 32px;
+    border-radius: 8px;
+}
+
+.Capa img{
+    border-radius:8px;
+    width: 100%;
+
+}
+
+.Capa{
+    transition: trasform, 1s;
+}
+
+.Capa:hover{
+    transform: scale(1.1);
+
+}
